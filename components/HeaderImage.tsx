@@ -13,12 +13,12 @@ const HeaderImageComp: React.FC = () => {
                         style={{ width: '100%', height: '38%', justifyContent: 'center', position: 'absolute' }}
                     />
                 </View>
-                <View style={{ width: '100%', height: '100%', top: verticalScale(24), left: moderateScale(24) }}>
+                <View style={{ width: '100%', height: '100%', top: verticalScale(50), left: moderateScale(24) }}>
                     <Image
                         source={require('@/assets/images/logo-warunqu.png') as ImageSourcePropType}
                         style={{ width: scale(120), height: scale(40) }}
                     />
-                    <View style={{ flex: 1, marginTop: verticalScale(40) }}>
+                    <View style={{ flex: 1, marginTop: verticalScale(20) }}>
                         <Text style={{ fontWeight: "800", fontSize: scale(16), color: CLLightBase }}>
                             Selamat Datang Kembali,
                         </Text>
